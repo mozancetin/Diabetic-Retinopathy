@@ -132,4 +132,4 @@ def circle_crop(img_array, sigmaX = 10):
     img=cv2.addWeighted ( img,4, cv2.GaussianBlur( img , (0,0) , sigmaX) ,-4 ,128)
     return img 
 
-augmentate()
+#augmentate()
