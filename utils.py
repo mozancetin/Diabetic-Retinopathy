@@ -133,6 +133,3 @@ def circle_crop(img_array, sigmaX = 10):
     return img 
 
 augmentate()
-#number = 3
-#move_random_files(f"./new/{number}", f"./new_temp/{number}/", 872, 708)
-#move_files_from_csv("./trainLabels_cropped.csv")
