@@ -51,16 +51,6 @@ def augmentate():
         p.process()
         p.sample(9292)
 
-def temp_augmentate():
-    p = Augmentor.Pipeline("./temp", "output")
-    p.flip_random(0.5)
-    p.random_distortion(0.5, 8, 8, 3)
-    p.rotate(0.3, 10, 10)
-    p.random_brightness(0.3, 0.8, 1.2)
-
-    p.process()
-    p.sample(9)
-
 def crop_image(image):
     # https://www.kaggle.com/code/tanlikesmath/diabetic-retinopathy-resnet50-binary-cropped/notebook
     import cv2
